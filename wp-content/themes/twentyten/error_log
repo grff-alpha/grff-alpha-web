@@ -1,0 +1,2 @@
+[11-Mar-2014 01:01:29] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/twentyten/404.php on line 10
+[01-Jun-2014 12:07:24] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/twentyten/search.php on line 10

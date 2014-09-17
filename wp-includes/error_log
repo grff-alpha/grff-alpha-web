@@ -1,0 +1,2 @@
+[05-Jun-2014 18:49:35] PHP Fatal error:  Call to undefined function  add_action() in /home/giraffew/public_html/wp-includes/admin-bar.php on line 39
+[05-Jun-2014 18:51:22] PHP Fatal error:  Call to undefined function  add_action() in /home/giraffew/public_html/wp-includes/admin-bar.php on line 39

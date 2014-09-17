@@ -1,0 +1,65 @@
+[31-May-2013 16:31:25] PHP Parse error:  syntax error, unexpected T_DNUMBER, expecting ',' or ';' in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/team-giraffe.php on line 26
+[31-May-2013 16:31:46] PHP Parse error:  syntax error, unexpected T_DNUMBER, expecting ',' or ';' in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/team-giraffe.php on line 26
+[31-May-2013 22:52:18] PHP Warning:  Division by zero in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/historia.php on line 72
+[31-May-2013 22:52:18] PHP Warning:  Division by zero in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/historia.php on line 72
+[04-Jun-2013 15:53:53] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 15:53:57] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 15:54:06] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 15:54:11] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 15:54:25] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 15:54:29] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 15:54:40] PHP Parse error:  syntax error, unexpected T_STRING in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/snapvideos.php on line 59
+[04-Jun-2013 20:09:50] PHP Fatal error:  Call to undefined function  get_field() in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/single-sc-projects.php on line 22
+[04-Jun-2013 20:13:58] PHP Fatal error:  Call to undefined function  get_field() in /home2/giraffec/public_html/webgiraffeideas/wp-content/themes/base-giraffe/single-sc-projects.php on line 22
+[17-Feb-2014 23:03:33] PHP Warning:  file_get_contents(http://blog.giraffeideas.com/CMS/UI/Modules/BizBlogger/rss.aspx?tabid=1157151&amp;moduleid=2515297&amp;maxcount=25&amp;t=aaeb5e04ce16501bfc57f7afe7847982) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 32
+[17-Feb-2014 23:03:33] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php:33
+Stack trace:
+#0 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(33): SimpleXMLElement->__construct('')
+#1 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(46): getFeed()
+#2 /home/giraffew/public_html/wp-includes/template-loader.php(47): include('/home/giraffew/...')
+#3 /home/giraffew/public_html/wp-blog-header.php(16): require_once('/home/giraffew/...')
+#4 /home/giraffew/public_html/index.php(17): require('/home/giraffew/...')
+#5 {main}
+  thrown in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 33
+[06-May-2014 23:59:35] PHP Warning:  file_get_contents(http://blog.giraffeideas.com/CMS/UI/Modules/BizBlogger/rss.aspx?tabid=1157151&amp;moduleid=2515297&amp;maxcount=25&amp;t=aaeb5e04ce16501bfc57f7afe7847982) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 32
+[06-May-2014 23:59:35] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php:33
+Stack trace:
+#0 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(33): SimpleXMLElement->__construct('')
+#1 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(46): getFeed()
+#2 /home/giraffew/public_html/wp-includes/template-loader.php(47): include('/home/giraffew/...')
+#3 /home/giraffew/public_html/wp-blog-header.php(16): require_once('/home/giraffew/...')
+#4 /home/giraffew/public_html/index.php(17): require('/home/giraffew/...')
+#5 {main}
+  thrown in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 33
+[06-May-2014 23:59:48] PHP Warning:  file_get_contents(http://blog.giraffeideas.com/CMS/UI/Modules/BizBlogger/rss.aspx?tabid=1157151&amp;moduleid=2515297&amp;maxcount=25&amp;t=aaeb5e04ce16501bfc57f7afe7847982) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 32
+[06-May-2014 23:59:48] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php:33
+Stack trace:
+#0 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(33): SimpleXMLElement->__construct('')
+#1 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(46): getFeed()
+#2 /home/giraffew/public_html/wp-includes/template-loader.php(47): include('/home/giraffew/...')
+#3 /home/giraffew/public_html/wp-blog-header.php(16): require_once('/home/giraffew/...')
+#4 /home/giraffew/public_html/index.php(17): require('/home/giraffew/...')
+#5 {main}
+  thrown in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 33
+[20-May-2014 03:39:04] PHP Warning:  file_get_contents() [<a href='function.file-get-contents'>function.file-get-contents</a>]: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 32
+[20-May-2014 03:39:04] PHP Warning:  file_get_contents(http://blog.giraffeideas.com/CMS/UI/Modules/BizBlogger/rss.aspx?tabid=1157151&amp;moduleid=2515297&amp;maxcount=25&amp;t=aaeb5e04ce16501bfc57f7afe7847982) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 32
+[20-May-2014 03:39:04] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php:33
+Stack trace:
+#0 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(33): SimpleXMLElement->__construct('')
+#1 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(46): getFeed()
+#2 /home/giraffew/public_html/wp-includes/template-loader.php(47): include('/home/giraffew/...')
+#3 /home/giraffew/public_html/wp-blog-header.php(16): require_once('/home/giraffew/...')
+#4 /home/giraffew/public_html/index.php(17): require('/home/giraffew/...')
+#5 {main}
+  thrown in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 33
+[23-Jun-2014 07:43:41] PHP Warning:  file_get_contents(http://blog.giraffeideas.com/CMS/UI/Modules/BizBlogger/rss.aspx?tabid=1157151&amp;moduleid=2515297&amp;maxcount=25&amp;t=aaeb5e04ce16501bfc57f7afe7847982) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed!  in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 32
+[23-Jun-2014 07:43:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php:33
+Stack trace:
+#0 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(33): SimpleXMLElement->__construct('')
+#1 /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php(46): getFeed()
+#2 /home/giraffew/public_html/wp-includes/template-loader.php(47): include('/home/giraffew/...')
+#3 /home/giraffew/public_html/wp-blog-header.php(16): require_once('/home/giraffew/...')
+#4 /home/giraffew/public_html/index.php(17): require('/home/giraffew/...')
+#5 {main}
+  thrown in /home/giraffew/public_html/wp-content/themes/base-giraffe/home.php on line 33
+[15-Sep-2014 17:47:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/giraffew/public_html/wp-content/themes/base-giraffe/explaining.php on line 67

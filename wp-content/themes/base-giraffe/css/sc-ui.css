@@ -1,0 +1,29 @@
+/* UI */
+
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: 0 1px 1px rgba(0 ,0, 0, .3);
+	text-align: center;
+	border: 0;
+}
+.btn.medium{
+	padding: 8px 14px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 14px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+.btn.big{
+	padding: 15px;
+	color: #fff;
+	font-size: 16px;
+	line-height: 16px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.btn.full-width{
+	display: block;
+}
