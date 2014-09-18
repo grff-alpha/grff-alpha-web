@@ -17,32 +17,179 @@
 		bottom: 0;
 		left: 0;
 		z-index: -1;
-		background: url( '../img/teamGiraffe/Header-bg.jpg' ) no-repeat center;
 		opacity: 0.2;
+		background: url( '../img/teamGiraffe/Header-bg.jpg' ) no-repeat center;
 	}
 
 	.Header-teamWork-contentMain {
 		width: 42.75em;
 	}
 
-	.Header-teamWork-iconArrow {
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-	}
-
 	.Picture-teamMain {	
-		padding: 3.125em;
 		-webkit-display: flex;
 			-ms-display: flex;
 				display: flex;
 		justify-content: center;
 	}
 
+	.Picture-teamMainOne {
+		padding: 3.125em 3.125em 0;
+	}
+
+	.Picture-teamMainTwo {
+		padding: 0 3.125em 3.125em;
+	}
+
 	.Picture-teamBox {
 		margin: 1.875em;
-		height: 14.375em;
-		width: 16.625em;
-		box-shadow: 0 1px 1px #CACACA;
+		height: 18.125em;
+		width: 14em;
+		-webkit-box-shadow: 0 0.0625em 0.0625em #CACACA;
+		   -moz-box-shadow: 0 0.0625em 0.0625em #CACACA;
+				box-shadow: 0 0.0625em 0.0625em #CACACA;
+	}
+
+	.Picture-teamProfile {
+		height: 12.125em;
+		border-bottom: 0.25em solid #BC151F;	
+	}
+
+	.Picture-teamProfile:after {
+		position: absolute;
+		content: "";
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		opacity: .6;
+		background: url( '../img/teamGiraffe/profileHover-bg.png' ) no-repeat;  
+		background-size: cover;
+		background-position: 0 12.125em;
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );	
+	}
+
+	.Picture-teamBox:hover .Picture-teamProfile:after {
+		background-position: 0;
+	}
+
+	.Picture-teamMainDescription {
+		padding: 1.25em;		
+	}
+
+	.Picture-teamDescription {
+		margin: 0;
+		font-size: 0.875em;
+	}
+
+	.Picture-teamSocialIcons {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.Picture-teamSocialIcons:after {
+		position: absolute;
+		content: "";
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1;
+		opacity: 1;
+		background: url( '../img/teamGiraffe/profileHoverSocialIcons-bg.png' ) no-repeat;
+		background-size: cover;
+		background-position: 0 -5.6875em;
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+	}
+
+	.Picture-teamBox:hover .Picture-teamSocialIcons:after {
+		background-position: 0;
+	}
+
+	.Picture-teamSocialLink {
+		text-decoration: none;
+		opacity: 0;
+	}
+
+	.Picture-teamBox:hover .Picture-teamSocialLink {
+		opacity: 1;
+	}
+
+	.Picture-teamIconsFonts {		
+		opacity: .5;
+		-webkit-transition: all .1s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .1s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .1s cubic-bezier( .4, 0, .2, 1 );
+	}
+
+	.Picture-teamIconsFonts:hover {
+		opacity: 1;
+	}
+
+	.Picture-teamSocialLink {
+		-webkit-flex: 1;
+		-moz-flex: 1;
+		flex: 1;
+		z-index: 2;
+		color: #fff;
+		-webkit-transition: all .1s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .1s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .1s cubic-bezier( .4, 0, .2, 1 );
+	}
+
+	.Picture-teamSocialIcons .Picture-teamSocialLink:first-child {
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+	}
+
+	.Picture-teamSocialIcons .Picture-teamSocialLink:last-child {
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+	}
+
+	.Picture-teamBox:hover .Picture-teamSocialIcons .Picture-teamSocialLink {
+		border-right: 0.0625em solid #CA0E1C;
+	}
+
+	.Picture-teamBox:hover .Picture-teamSocialIcons .Picture-teamSocialLink:last-child {
+		border: 0;
+	}
+
+	.Job-teamTitleMain {
+		text-align: center;
+	}
+
+	.Job-teamMain {
+		margin-bottom: 6.25em; 
+		height: 23.75em;
+		text-align: center;
+		background: url( '../img/teamGiraffe/job-bg.png' ) no-repeat center;
+	}
+
+	.Job-teamButtonWorkUs {
+		margin-top: 3.125em;
+		width: 16.225em;
+		height: 4.125em;
+		color: #fff;
+		background: #FF9C00;
+		border: none;
+		border-bottom: 0.25em solid #FF7F00;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
 	}

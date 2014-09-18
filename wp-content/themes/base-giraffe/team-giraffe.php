@@ -27,19 +27,29 @@ get_header()
 				<span class="Header-teamWork-parrafo -u-red-bold">#Explaining</span>
 			</p>
 		</section>
-		<span class="Header-teamWork-iconArrow -u-red icon-arrow-down10 icon-small"></span>
 	</header>
 
-	<section class="Picture-teamMain">
+	<section class="Picture-teamMain Picture-teamMainOne">
 
 		<section class="Picture-teamBox">
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+					<a href="https://github.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-github icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
@@ -47,10 +57,18 @@ get_header()
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
@@ -58,10 +76,18 @@ get_header()
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
@@ -69,25 +95,41 @@ get_header()
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
 	</section>
 
-	<section class="Picture-teamMain">
+	<section class="Picture-teamMain Picture-teamMainTwo">
 
 		<section class="Picture-teamBox">
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
@@ -95,10 +137,18 @@ get_header()
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
@@ -106,10 +156,18 @@ get_header()
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
@@ -117,21 +175,30 @@ get_header()
 			<figure class="Picture-teamProfile">
 				<img src="" alt="Picture People" class="Picture-teamImageProfile" />
 			</figure>
-			<figcaption class="Picture-teamDescription">
-				<p class="Picture-teamName">Name</p>
-				<p class="Picture-teamCharge">Job</p>
-				<p class="Picture-teamEmail -u-red">name@giraffeideas.com</p>
+			<figcaption class="Picture-teamMainDescription">
+				<p class="Picture-teamDescription -u-black-bold">Name</p>
+				<p class="Picture-teamDescription -u-gray">Job</p>
+				<p class="Picture-teamDescription -u-red">name@giraffeideas.com</p>
+				<div class="Picture-teamSocialIcons">
+					<a href="https://twitter.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-twitter4 icon-small"></span>
+					</a>
+					<a href="https://co.linkedin.com/" target="_blank" class="Picture-teamSocialLink">
+						<span class="Picture-teamIconsFonts icon-linkedin2 icon-small"></span>
+					</a>
+				</div>
 			</figcaption>
 		</section>
 
+	</section>
+
+	<section class="Job-teamTitleMain">
+		<h2 class="Job-teamTitle">Muestrános tus talentos</h2>
 	</section>
 
 	<section class="Job-teamMain">
-		<h2 class="Job-teamTitle">Muestrános tus talentos</h2>
 		<button class="Job-teamButtonWorkUs">Trabaja con nosotros</button>
-		<p class="Job-teamHashTag"></p>
+		<p class="Job-teamHashTag -u-yellow-bold">#TrabajoSíHay</p>
 	</section>
 
-
-	
 <?php get_footer()?>
