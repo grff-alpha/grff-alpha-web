@@ -1,0 +1,39 @@
+
+	/* Color */
+    .-u-red {
+        color: #C93E49;
+    }
+
+	.-u-red-bold {
+		color: #BC1520;
+		font-weight: bold;
+	}
+
+    .-u-black-bold {
+        color: #2A2A2A;
+        font-weight: bold;
+    }
+
+    /* Text sizes */
+    .-u-text-14 {
+        font-size: 1.142em;
+    }
+
+    /* Icon sizes */
+    .icon-small {
+    	font-size: 2.125em;
+    }
+
+    .icon-medium {
+    	font-size: 3.125em;
+    }
+
+    .icon-big {
+    	font-size: 4.125em;
+    }
+
+    .icon-title {
+		background: url(../img/icon-conexion.png) no-repeat left center;
+		text-align: left;
+		padding: 0 0 0 20px
+	}

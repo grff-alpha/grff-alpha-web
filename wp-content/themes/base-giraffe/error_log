@@ -1,0 +1,8 @@
+[21-Mar-2014 08:20:36] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[21-Mar-2014 08:20:42] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[21-Mar-2014 08:20:48] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[21-Mar-2014 08:20:53] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[24-Mar-2014 18:46:17] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[24-Mar-2014 18:46:29] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[30-Apr-2014 13:35:17] PHP Fatal error:  Call to undefined function  get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
+[18-Jul-2014 09:58:44 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/giraffew/public_html/wp-content/themes/base-giraffe/index.php on line 1
