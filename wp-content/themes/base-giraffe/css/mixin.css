@@ -4,8 +4,17 @@
         color: #C93E49;
     }
 
+    .-u-red-bold {
+        color: #C93E49;
+    }
+
     .-u-yellow-bold {
         color: #FB9D00;
+        font-weight: bold;
+    }
+
+    .-u-orange-bold {
+        color: #FF9E02;
         font-weight: bold;
     }
 
@@ -21,6 +30,16 @@
 
     .-u-gray {
         color: #7F7F7F;
+    }
+
+    .-u-gray-bold {
+        color: #7F7F7F;
+        font-weight: bold;
+    }
+
+    .-u-gray-light-bold {
+        color: #8A8A8A;
+        font-weight: bold;
     }
 
     /* Text sizes */

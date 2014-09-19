@@ -1,106 +1,140 @@
 
-	.Header-menuPrincipal {
-		padding: 20px 0;
-		border-bottom: 2px solid #E7E7E7
+	.Header-main {
+		height: 7.25em;
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;	
 	}
 
-	.Header-menuPrincipal:after {
-		content: '';
+	.Header-mainContent {
+		margin: 0 auto;
+		width: 60em;
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;
+	}
+
+	/* Logo */
+	.Header-logo {
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.Header-mainInfo {
 		position: absolute;
-		height: 15px;
-		width: 100%;
-		left: 0;
-		bottom: -15px;
-		background-position: center top;
-		background-repeat: no-repeat;
-		z-index: 1;
+		right: 0;
+		height: 3.625em;
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;
+		align-items: center;
 	}
 
-	.Header-menuPrincipal,
-	.Header-menuPrincipal .grid-wrap {
-		z-index: 10
+	.Header-mainDirection {
+		padding: 0 .5em;
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;
+		font-style: normal;
 	}
 
-	.Header-menuPrincipal .phones {
-		font-size: 16px;
-		font-weight: 700
+	.Header-descriptionItem {
+		margin: 0;
+		padding: 0 .25em;
 	}
 
-	.Header-menuPrincipal .phones span {
-		color: #BD131F
+	.Header-mainSocialLink {
+		text-decoration: none;
 	}
 
-	.Header-menuPrincipal .phones li {
-		background: url(../img/icon-phone.png) left center no-repeat;
-		padding: 0 15px
+	/* Menu */
+	.Header-menu {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 3.125em;
+		text-align: center;
+		-webkit-display: flex;
+			-ms-display: flex;
+				display: flex;
+		align-items: bottom;
 	}
 
-	.Header-menuPrincipal .social-networks li {
-		width: 28px;
-		height: 27px;
-		background-image: url(../img/socials.png)
+	.Header-menuList {
+		margin-right: 1em;		
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );
 	}
 
-	.Header-menuPrincipal .social-networks li.facebook {
-		background-position: 0 0
+	.Header-menuList:hover {
+		border-bottom: 0.25em solid #C93E49;
 	}
 
-	.Header-menuPrincipal .social-networks li.twitter {
-		background-position:-28px 0
+	.Header-menuList:hover .Header-menuLink {
+		color: #C93E49;
 	}
 
-	.Header-menuPrincipal .social-networks li.linkedIn {
-		background-position:-56px 0
+	.Header-mainSubmenu:hover {
+		border-bottom: 0;
 	}
 
-	.Header-menuPrincipal .social-networks li.link-youtube {
-		background-position:-84px 0
+	.Header-mainSubmenu:hover .Header-subMenuLink {
+		color: #7F7F7F;
 	}
 
-	.Header-menuPrincipal .social-networks li.gplus {
-		background-position:-110px 0
+	.Header-mainSubmenu:hover .Header-subMenuList:hover .Header-subMenuLink {
+		color: #C93E49;
 	}
 
-	.Header-menuPrincipal nav {
-		font-size:15px;
-		margin:10px 0 0
+	.Header-menuLink {
+		text-decoration: none;
 	}
 
-	.Header-menuPrincipal nav li {
-		background:#fff;
-		z-index:20
+	.Header-menuList:last-child {
+		margin-right: 0;
 	}
 
-	.Header-menuPrincipal nav li a {
-		text-decoration:none;
-		padding:5px
+	.Header-subMenu {
+		position: absolute;
+		top: 1.562em;
+		text-align: left;
+		display: none;
+		background: #fff;
 	}
 
-	.Header-menuPrincipal nav > ul > li:hover,
-	.Header-menuPrincipal nav > ul > li.current-menu-item,
-	.Header-menuPrincipal nav > ul > li.current-menu-ancestor {
-		box-shadow:0 0 2px rgba(0,0,0,.3)
+	.Header-subMenu:hover {
+		z-index: 4;
 	}
 
-	.Header-menuPrincipal nav ul li:hover > a,
-	.Header-menuPrincipal li.current-menu-item a {
-		color:#BD131F
+	.Header-mainSubmenu:hover .Header-subMenu { 
+		display: block;
+		z-index: 4;
 	}
 
-	.Header-menuPrincipal nav ul li ul {
-		display:none;
-		position:absolute;
-		background:#fff;
-		box-shadow:0 1px 2px rgba(0,0,0,.3);
-		padding:10px
+	.Header-mainSubmenu:hover .Header-subMenuList {
+		overflow: visible;
 	}
 
-	.Header-menuPrincipal nav ul li:hover ul {
-		display:block
+	.Header-subMenuList {
+		padding: 1em;
+		background: #ccc;
+		overflow: hidden;
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );
 	}
 
-	.Header-menuPrincipal nav ul li ul li {
-		display:block!important;
-		text-align:left;
-		font-size:12px
+	.Header-subMenuList:hover {
+		background: #fff;
+		-webkit-box-shadow: 0 0 60px #ccc;
+		-moz-box-shadow: 0 0 60px #ccc;
+		box-shadow: 0 0 60px #ccc;
+	}
+
+	.Header-subMenuLink {
+		font-size: 0.875em;
 	}

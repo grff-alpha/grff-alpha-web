@@ -1,11 +1,12 @@
 	
+	@import "mixin.css";
 	@import "header.css";
+	@import "trabajecongiraffe.css";
 	@import "normalize.css";
 	@import "sc-grid-system.css";
 	@import "sc-ui.css";
 	@import "colorbox.css";
 	@import "fonts.css";
-	@import "mixin.css";
 	@import "team-giraffe.css";
 	@import url( http://fonts.googleapis.com/css?family=Cabin+Sketch );
 	
@@ -1790,10 +1791,10 @@
 	}
 
 	.icon-rss,.icon-twitter {
-	width:25px;
+	/*width:25px;
 	height:25px;
 	display:inline-block;
-	margin:0 5px
+	margin:0 5px*/
 	}
 
 	.icon-rss {
@@ -1801,7 +1802,7 @@
 	}
 
 	.icon-twitter {
-	background:url(../img/icon-twitter.png)
+	/*background:url(../img/icon-twitter.png)*/
 	}
 
 	.icon-24 {
