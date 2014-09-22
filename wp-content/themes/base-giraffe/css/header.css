@@ -1,24 +1,24 @@
 
 	.Header-main {
 		height: 7.25em;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;	
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;	
 	}
 
 	.Header-mainContent {
 		margin: 0 auto;
 		width: 60em;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 	}
 
 	/* Logo */
 	.Header-logo {
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
@@ -27,17 +27,17 @@
 		position: absolute;
 		right: 0;
 		height: 3.625em;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 		align-items: center;
 	}
 
 	.Header-mainDirection {
 		padding: 0 .5em;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 		font-style: normal;
 	}
 
@@ -57,9 +57,9 @@
 		right: 0;
 		height: 3.125em;
 		text-align: center;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 		align-items: bottom;
 	}
 

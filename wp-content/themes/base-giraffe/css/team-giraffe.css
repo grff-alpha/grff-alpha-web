@@ -2,9 +2,9 @@
 	.Header-teamWork {
 		height: 20.625em;
 		text-align: center;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
@@ -26,9 +26,9 @@
 	}
 
 	.Picture-teamMain {	
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: flex;
 		justify-content: center;
 	}
 
@@ -90,9 +90,9 @@
 		right: 0;
 		bottom: 0;
 		left: 0;
-		-webkit-display: flex;
-			-ms-display: flex;
-				display: flex;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: flex;
 		align-items: center;
 		justify-content: center;
 		text-align: center;

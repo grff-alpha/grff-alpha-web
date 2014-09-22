@@ -1,2 +1,109 @@
 
+	.Header-job {
+		height: 30em;
+		text-align: center;
+		background: url( '../img/jobWithUs/Header-bg.png' ) no-repeat center;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.Header-job--titleOne { padding-top: 4.375em; } 
+	.Header-job--titleTwo { padding-top: 5.375em; }
+	.Header-job--hashtag { padding-bottom: 1em; }
+ 	.Header-job--titleThree { padding-top: 3.375em; }
 	
+	.Header-job--description {
+		margin: 0;
+		font-size: 1.25em;
+	}
+
+	.Charge-job-content {
+		padding: 0 1.25em;
+	}
+
+	.Charge-job {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: flex;
+		justify-content: center;
+	}
+
+	/* Box One */
+	.Charge-job-mainOne { background: url( '../img/jobWithUs/BoxCharge-bg-01.png' ) no-repeat bottom right; }
+
+	/* Box Two */
+	.Charge-job-mainTwo { background: url( '../img/jobWithUs/BoxCharge-bg-02.png' ) no-repeat bottom right; }
+
+	/* Box Three */
+	.Charge-job-mainThree { background: url( '../img/jobWithUs/BoxCharge-bg-03.png' ) no-repeat bottom right; }
+
+	/* Box Four */
+	.Charge-job-mainFour { background: url( '../img/jobWithUs/BoxCharge-bg-04.png' ) no-repeat bottom right; }
+
+	/* Box Five */
+	.Charge-job-mainFive { background: url( '../img/jobWithUs/BoxCharge-bg-05.png' ) no-repeat bottom right; }
+
+	/* Box Six */
+	.Charge-job-mainSix { background: url( '../img/jobWithUs/BoxCharge-bg-06.png' ) no-repeat bottom right; }
+
+	.Charge-job-main {
+		margin: 1.125em;
+		padding: 0 0.875em;
+		width: 28.8125em;	
+		height: 12em;	
+		-webkit-box-shadow: 0 1px 2px #C8C8C8;
+		-moz-box-shadow: 0 1px 2px #C8C8C8;
+		box-shadow: 0 1px 2px #C8C8C8;
+		-webkit-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		-moz-transition: all .2s cubic-bezier( .4, 0, .2, 1 );
+		transition: all .2s cubic-bezier( .4, 0, .2, 1 );	
+	}
+
+	.Charge-job-main:hover {
+		-webkit-box-shadow: 0 1px 60px #C8C8C8;
+		-moz-box-shadow: 0 1px 60px #C8C8C8;
+		box-shadow: 0 1px 60px #C8C8C8;		
+	}
+
+	.Message-job {
+		margin-bottom: 6.25em;
+		text-align: center;
+	}
+
+	@media all and ( max-width: 1000px ) {
+		
+		.Charge-job-content {
+			padding: 0 2em;
+		}
+
+		.Charge-job {
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+			flex-direction: column;
+		}
+
+		.Charge-job-main {   
+			margin: 1.125em 0;
+			width: 100%;	
+		}
+
+	}
+
+	@media all and ( max-width: 550px ) {
+
+		.Header-job {
+			background: none;
+		}
+
+		.Charge-job-content { padding: 0; }
+
+		.Charge-job-main:hover {
+			-webkit-box-shadow: 0 1px 2px #C8C8C8;
+			-moz-box-shadow: 0 1px 2px #C8C8C8;
+			box-shadow: 0 1px 2px #C8C8C8;		
+		}
+
+	}
